@@ -18,3 +18,6 @@ int BC(int n, int k)
                 return 1;
         return BC(n-1,k-1) + BC(n-1,k);
 }
+output:::::
+enter n and k: 4 2
+        binomial coefficient:1,2,4
